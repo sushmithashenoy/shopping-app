@@ -1,5 +1,5 @@
 
-This is a simple Spring Boot application with the HomePage:
+This is a simple Spring Boot shopping application with the HomePage:
 
 • /
 • /index
