@@ -1,27 +1,25 @@
+# Shopping App
 
-This is a simple Spring Boot shopping application with the HomePage:
+A simple Spring Boot shopping application that allows users to view products, manage shopping carts, and update product prices.
 
-• /
-• /index
+## Features
+- View available products
+- Manage customer shopping carts
+- Update product prices
+- RESTful API endpoints
 
-and the following Endpoints:
- 
-• /products
-• /updateprice
-• /customershoppingcart/{custId}
-• /getshoppingcarts
+## Technologies Used
+Java 11, Spring Boot, Docker, Maven, JUnit 5, Bootstrap 5
 
+## Getting Started
 
-Requirements
-Java11
+### Prerequisites
+- Java 11+
+- Maven
+- Docker (optional)
 
-technologies:
-• Java 11
-• Spring Boot
-• Docker
-• Maven
-• Junit5
-• Bootstrap 5
-• Eclipse as IDE
-
-   
+### Installation
+```bash
+git clone https://github.com/sushmithashenoy/shopping-app.git
+cd shopping-app
+mvn install
