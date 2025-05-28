@@ -23,3 +23,40 @@ Java 11, Spring Boot, Docker, Maven, JUnit 5, Bootstrap 5
 git clone https://github.com/sushmithashenoy/shopping-app.git
 cd shopping-app
 mvn install
+
+
+## Running the App
+
+To start the application locally using Maven:
+
+```bash
+mvn spring-boot:run
+```
+Or, to run using Docker:
+
+```bash
+docker build -t shopping-app .
+docker run -p 8080:8080 shopping-app
+```
+
+---
+
+## Testing
+
+To run the test suite and verify the application's functionality:
+
+```bash
+mvn test
+```
+
+---
+
+## API Endpoints
+
+| Endpoint                            | Description                    |
+|--------------------------------------|--------------------------------|
+| `/` or `/index`                     | Home page                      |
+| `/products`                         | Get a list of all products     |
+| `/updateprice`                      | Update product prices          |
+| `/customershoppingcart/{custId}`    | Get a specific customer's cart |
+| `/getshoppingcarts`                 | Get all shopping carts         |
